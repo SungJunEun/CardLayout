@@ -19,3 +19,7 @@
   background-size: 100% 280px;
   background-repeat: no-repeat;
 }
+.card:hover .card-header {
+  opacity: 0.8;
+  height: 100px;
+}
