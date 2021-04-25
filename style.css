@@ -35,3 +35,26 @@
   line-height: 20px;
 
 }
+h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.card-body-header {
+    margin: 10px 20px 0px 20px;
+    line-height: 25px;
+}
+.card-body-description {
+  opaciy: 0;
+  color: #757B82;
+  overflow: hidden;
+  height: 180px;
+  margin: 5px 20px;
+}
+.card:hover .card-body-description {
+  opacity: 1;
+  overflow: scroll;
+}
+.card-body-hashtag {
+  color: #2478FF;
+  font-style: italic;
+}
